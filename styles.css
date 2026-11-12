@@ -235,7 +235,7 @@ p {
   gap: 2.5rem;
   padding: 6rem var(--gutter) 3rem;
   overflow: hidden;
-  background: linear-gradient(115deg, #ffffff 0%, #f5f6f8 40%, #d9dce2 100%);
+  background: var(--paper);
 }
 
 .page-bar {
@@ -543,7 +543,7 @@ p {
   padding: clamp(3rem, 6vw, 5rem) var(--gutter);
   color: var(--white);
   background:
-    radial-gradient(ellipse 60% 90% at 0% 0%, rgb(235, 113, 75) 0%, rgb(20, 20, 22) 70%),
+    radial-gradient(ellipse 60% 90% at 0% 0%,  0%, var(--paper) 70%),
     #000000;
   display: grid;
   grid-template-columns: 1fr 1fr 1.2fr;
@@ -563,6 +563,7 @@ p {
   display: block;
   padding-block: 0.8rem;
   transition: transform 0.5s var(--ease);
+  color: #000;
 }
 
 .inside__item:nth-child(even) {
@@ -592,6 +593,7 @@ p {
   position: relative;
   justify-self: end;
   text-align: right;
+  color: #000;
 }
 
 .inside__q {
@@ -605,6 +607,7 @@ p {
 
 .inside__q text {
   font-family: var(--font-accent);
+  
 }
 
 .inside__heading h2 {
