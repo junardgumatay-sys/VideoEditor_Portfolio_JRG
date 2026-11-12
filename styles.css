@@ -4,7 +4,6 @@
 
 :root {
   --orange: rgb(235, 113, 75);
-  --lime: rgb(242, 240, 238);
   --ink: #0b0b0f;
   --paper: #f0f2f5;
   --white: #ffffff;
@@ -687,15 +686,15 @@ p {
 }
 
 .pill[aria-current="true"] {
-  background: var(--lime);
-  border-color: var(--lime);
-  color: var(--ink);
+  background: rgb(243, 154, 127);
+  border-color: var(--paper);
+  color: var(--paper);
 }
 
 .divider__num {
   position: relative;
   font-family: var(--font-display);
-  color: var(--lime);
+  color: var(--orange);
   font-size: clamp(6rem, 11vw, 10rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
@@ -826,7 +825,7 @@ p {
   height: 84px;
   border-radius: 50%;
   border: 0;
-  background: var(--lime);
+  background: var(--orange);
   color: var(--ink);
   display: grid;
   place-items: center;
@@ -940,7 +939,7 @@ p {
   height: 52px;
   border-radius: 50%;
   border: 0;
-  background: var(--lime);
+  background: var(--orange);
   color: var(--ink);
   display: grid;
   place-items: center;
