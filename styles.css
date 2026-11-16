@@ -1031,16 +1031,6 @@ p {
   }
 }
 
-.project {
-    grid-template-columns: 1fr;
-    padding-top: 5rem;
-    min-height: auto;
-  }
-
-.project__info {
-  max-width: 90%;
-}
-
 @media (max-width: 820px) {
   .page-bar {
     top: 1.6rem;
